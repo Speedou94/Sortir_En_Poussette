@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Sortie en poussette</string>
     <string name="login">Connexion</string>
+    <string name="username">Pseudo</string>
+    <string name="password">Mot de passe</string>
+    <string name="loginbtn">Connexion</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="social_login">Connectez vous avec :</string>
     <string name="other_login">Autres moyens de connexion</string>
 </resources>

@@ -8,9 +8,9 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/signin"
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="35dp"
@@ -19,12 +19,12 @@
         android:gravity="center"/>
 
     <EditText
-        android:id="@+id/username"
-        android:layout_below="@id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/signin"
         android:background="#30ffffff"
-        android:hint="Pseudo"
+        android:hint="@string/username"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:layout_margin="10dp"
@@ -38,7 +38,7 @@
         android:id="@+id/password"
         android:layout_below="@id/username"
         android:background="#30ffffff"
-        android:hint="Mot de passe"
+        android:hint="@string/password"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:layout_margin="10dp"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/loginbtn"
         android:layout_below="@id/password"
-        android:text="@string/login"
+        android:text="@string/loginbtn"
         android:backgroundTint="@color/design_default_color_secondary"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
@@ -63,10 +63,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
-        android:text="@string/other_login"
+        android:text="@string/forgot_password"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:layout_above="@id/socialicons"
+        android:text="@string/social_login"
+        android:layout_centerHorizontal="true"/>
 
 
     <LinearLayout
