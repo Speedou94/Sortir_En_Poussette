@@ -76,8 +76,8 @@
         android:backgroundTint="@color/design_default_color_secondary"
         android:text="@string/loginbtn" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/registerBtn"
+    <Button
+        android:id="@+id/createAccountBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
@@ -90,7 +90,7 @@
         android:text="Inscrivez Vous" />
 
     <TextView
-        android:id="@+id/forgotpass"
+        android:id="@+id/forgotPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginbtn"

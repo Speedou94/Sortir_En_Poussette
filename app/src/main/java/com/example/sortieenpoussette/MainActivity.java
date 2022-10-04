@@ -14,7 +14,7 @@ import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button registerBtn;
+    private Button createAccountBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,15 +23,12 @@ public class MainActivity extends AppCompatActivity {
 
         TextView username = (TextView) findViewById(R.id.username);
         TextView password = (TextView) findViewById(R.id.password);
-        registerBtn = findViewById(R.id.registerBtn);
+        createAccountBtn = findViewById(R.id.createAccountBtn);
 
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
-
         // admin
-
         loginbtn.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
@@ -43,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        registerBtn.setOnClickListener(new View.OnClickListener() {
+        createAccountBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mainRegister = new Intent(getApplicationContext(), MainRegister.class);
-                startActivity(mainRegister);
+                Intent createAccountActivity = new Intent(getApplicationContext(), CreateAccountActivity.class);
+                startActivity(createAccountActivity);
             }
         });
 
