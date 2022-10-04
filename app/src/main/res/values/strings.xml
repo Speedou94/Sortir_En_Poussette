@@ -3,8 +3,12 @@
     <string name="login">Connexion</string>
     <string name="username">Pseudo</string>
     <string name="password">Mot de passe</string>
+    <string name="re_password">confirmez votre mot de passe</string>
     <string name="loginbtn">Connexion</string>
     <string name="forgot_password">Mot de passe oublié ?</string>
-    <string name="social_login">Connectez vous avec :</string>
+    <string name="havent_account">Vous n\'avez pas de compte ?</string>
+    <string name="social_login">Ou connectez vous avec :</string>
     <string name="other_login">Autres moyens de connexion</string>
+    <string name="register">Inscrivez vous</string>
+    <string name="re_register">Inscription</string>
 </resources>
