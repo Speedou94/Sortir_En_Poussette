@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Sortie en poussette</string>
+    <string name="login">Connexion</string>
+    <string name="other_login">Autres moyens de connexion</string>
 </resources>
