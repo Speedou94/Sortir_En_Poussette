@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Sortie en poussette</string>
+    <string name="welcome">Bienvenue sur Sortir en Poussette</string>
     <string name="login">Connexion</string>
     <string name="username">Pseudo</string>
     <string name="password">Mot de passe</string>
@@ -11,4 +12,5 @@
     <string name="other_login">Autres moyens de connexion</string>
     <string name="register">Inscrivez vous</string>
     <string name="re_register">Inscription</string>
+    <string name="guest">Navigation en invité</string>
 </resources>

@@ -15,6 +15,7 @@ import com.google.android.material.button.MaterialButton;
 public class MainActivity extends AppCompatActivity {
 
     private Button createAccountBtn;
+    private Button guestBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         TextView username = (TextView) findViewById(R.id.username);
         TextView password = (TextView) findViewById(R.id.password);
         createAccountBtn = findViewById(R.id.createAccountBtn);
+        guestBtn = findViewById(R.id.guestBtn);
 
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
@@ -45,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent createAccountActivity = new Intent(getApplicationContext(), CreateAccountActivity.class);
                 startActivity(createAccountActivity);
+            }
+        });
+
+        guestBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent HomeActivity = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(HomeActivity);
             }
         });
 
